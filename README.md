@@ -17,6 +17,7 @@ MVP:
 - РФ и страны СНГ (10 мин в день)
 - Европа
 - Северная и Южная Америка
+- Южная Азия
 
 ## 2. Расчет нагрузки
 ### Продуктовые метрики
@@ -130,3 +131,4 @@ User Data, Chat and Chanel List service | 10              |
 2. https://www.tarantool.io/ru/doc/latest/reference/reference_rock/vshard/
 3. https://habr.com/ru/company/vk/blog/436916/
 4. https://github.com/tarantool/crud/#insert
+5. https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/
