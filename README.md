@@ -118,15 +118,20 @@ Amazon S3
 - Для тарантула можно взять сервер с небольшим количестом ядер и размером диска, но увеличенным объемом памяти.
 - Для остальных сервисов достаточно стандартной конфигурации.
 
-Сервис                                  | Кол-во серверов | Тип сервера
-----------------------------------------|-----------------| -----------
-Nginx                                   | 10              |
-Auth                                    | 10              |
-Gateway                                 | 25              |
-Message service                         | 35              |
-Chat service                            | 10              |
-Chanel posts service                    | 10              |
-User Data, Chat and Chanel List service | 10              |
+Сервис                                  | Кол-во серверов на один ЦОД | Тип сервера | Всего серверов
+----------------------------------------|-----------------------------| ----------- | -------------
+Nginx                                   | 500                         |             | 
+Auth                                    | 100                         |             | 
+Gateway                                 | 100                         |             | 
+Peer service                            | 500                         |             |
+Tarantool auth                          | 50                          |             |
+Tarantool queue                         | 500                         |             |
+Chat diff service                       | 500                         |             | 
+Chanel posts service                    | 50                          |             | 
+User Data                               | 50                          |             |
+Chat and Chanel List service            | 50                          |             |
+Chat and Chanel history service         | 50                          |             |
+Flusher service                         | 50                          |             |
 
 ## 8. Источники
 1. https://docs.nats.io/nats-concepts/jetstream
