@@ -144,21 +144,21 @@ Amazon S3
 - Для тарантула можно взять сервер с небольшим количестом ядер и размером диска, но увеличенным объемом памяти.
 - Для остальных сервисов достаточно стандартной конфигурации.
 
-Сервис                                  | Кол-во серверов на один ЦОД | Тип сервера |
-----------------------------------------|-----------------------------| ----------- |
-Nginx                                   | 500                         |             | 
-Auth                                    | 100                         |             | 
-Gateway                                 | 100                         |             | 
-Peer service                            | 500                         |             |
-Tarantool auth                          | 50                          |             |
-Tarantool queue                         | 500                         |             |
-Chat diff service                       | 500                         |             | 
-Chanel posts service                    | 500                         |             | 
-User Data                               | 50                          |             |
-Chat and Chanel List service            | 150                         |             |
-Chat and Chanel history service         | 150                         |             |
-Flusher service                         | 50                          |             |
-Mongo DB                                | 50                          |             |
+Сервис                                  | Кол-во серверов на один ЦОД | RAM | CPU | Storage
+----------------------------------------|-----------------------------|-----|-----|--------
+Nginx                                   | 500                         |     |     |
+Auth                                    | 100                         |     |     |
+Gateway                                 | 100                         |     |     |
+Peer service                            | 500                         |     |     |
+Tarantool auth                          | 50                          |     |     |
+Tarantool queue                         | 500                         |     |     |
+Chat diff service                       | 500                         |     |     |
+Chanel posts service                    | 500                         |     |     |
+User Data                               | 50                          |     |     |
+Chat and Chanel List service            | 150                         |     |     |
+Chat and Chanel history service         | 150                         |     |     |
+Flusher service                         | 50                          |     |     |
+Mongo DB                                | 50                          |     |     |
 
 ## 8. Источники
 1. https://docs.nats.io/nats-concepts/jetstream
@@ -166,3 +166,4 @@ Mongo DB                                | 50                          |         
 3. https://habr.com/ru/company/vk/blog/436916/
 4. https://github.com/tarantool/crud/#insert
 5. https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/
+6. https://temofeev.ru/info/articles/masshtabiruem-websocket-soedineniya-na-go/
