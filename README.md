@@ -89,7 +89,7 @@ MVP:
 
 ## 3. Логическая схема
 
-![](internal/logic_scheme.png)
+![](internal/logic_db.png)
 
 ## 4. Физическая схема
 ![](internal/db-chat@2x.png)
