@@ -287,8 +287,8 @@ Peer service                            | 615                         | 16  | 8 
 Chat diff service                       | 615                         | 16  | 8 cores | 256ГБ HDD             | 10 Гбит/с
 Chanel posts service                    | 4                           | 16  | 8 cores | 256ГБ HDD             | 10 Гбит/с
 User Data                               | 4                           | 16  | 8 cores | 256ГБ HDD             | 10 Гбит/с
-Chat and Chanel List service            | 4                           | 16  | 8 cores | 256ГБ HDD             | 10 Гбит/с
-Chat and Chanel history service         | 4                           | 16  | 8 cores | 256ГБ HDD             | 10 Гбит/с
+Chat and Chanel List service            | 4*2                         | 16  | 8 cores | 256ГБ HDD             | 10 Гбит/с
+Chat and Chanel history service         | 4*2                         | 16  | 8 cores | 256ГБ HDD             | 10 Гбит/с
 Flusher service                         | 1                           | 16  | 8 cores | 256ГБ HDD             | 10 Гбит/с
 Mongo DB                                | 8                           | 64  | 8 cores | RAID 10 4ТБ NVMe x 16 | 10 Гбит/с
 
