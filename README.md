@@ -116,18 +116,29 @@ MVP:
 Та же база, но схема данных немного другая.
 
 ### Шардирование
+
 Tarantool Auth - шардирирование по `user_id`
+
 MongoDB Users - шардирование по `user_id`
+
 MongoDB Chat and Channels - шардирование по `_id`
+
 MessagesDB - шардирование по `chat_id`
+
 PostsDB - шардирование по `channel_id` канала
 
 ### Индексы
+
 Tarantool Auth - HASH индекс по 'user_token' + HASH индекс по user_id
+
 MongoDB Users - индекс по `name` для полнотекстового поиска
+
 MongoDB Chat - кроме primary индекс не нужно
+
 MongoDB Channels - индекс для полнотекстового поиска
+
 MessagesDB - индекс для полнотекстового поиска по сообщениям
+
 PostsDB - индекс для полнотекстового поиска по сообщениям 
 
 ### Схема работы движка чатов и каналов на базе Tarantool
