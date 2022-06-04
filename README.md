@@ -223,7 +223,7 @@ RPS: 100 000
 
 Траффик - 4 МБит/с
 
-Кол-во - 4
+Кол-во - 8
 
 ### Chat and Chanel history service
 Рассчитываем по нагрузке на этот сервис.
@@ -238,7 +238,7 @@ RPS: 100 000
 
 Необходимая пропускная способности: 3,73 Гбит/сек - хватит интерфейса в 10 Гбит/с
 
-Кол-во: 4
+Кол-во: 8
 
 ### User Data
 В среднем пользователь вытаскивает свои данные 1 раз.
@@ -381,8 +381,8 @@ Peer service                            | 615                         | 16  | 8 
 Chat diff service                       | 615                         | 16  | 8 cores | 256ГБ HDD             | 10 Гбит/с
 Chanel posts service                    | 4                           | 16  | 8 cores | 256ГБ HDD             | 10 Гбит/с
 User Data                               | 4                           | 16  | 8 cores | 256ГБ HDD             | 10 Гбит/с
-Chat and Chanel List service            | 4*2                         | 16  | 8 cores | 256ГБ HDD             | 10 Гбит/с
-Chat and Chanel history service         | 4*2                         | 16  | 8 cores | 256ГБ HDD             | 10 Гбит/с
+Chat and Chanel List service            | 8*2                         | 16  | 8 cores | 256ГБ HDD             | 10 Гбит/с
+Chat and Chanel history service         | 8*2                         | 16  | 8 cores | 256ГБ HDD             | 10 Гбит/с
 Flusher service                         | 1                           | 16  | 8 cores | 256ГБ HDD             | 10 Гбит/с
 Mongo DB Chats and Channels             | 500                         | 64  | 8 cores | RAID 10 4ТБ NVMe x 16 | 10 Гбит/с
 MessageDB                               | 72                          | 32  | 8 cores | RAID 10 2ТБ NVMe x 16 | 10 Гбит/с
