@@ -1,4 +1,4 @@
-# highload_chat_design
+# highload-chat-design
 
 ## 1. Service type, MVP functionality and target audience
 
